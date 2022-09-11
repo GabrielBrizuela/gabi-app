@@ -17,7 +17,8 @@ const NavBar = () => (
             <li className="nav-item">
                 <a className="nav-link link_header" href="/">Quienes somos</a>
             </li>
-            <CartWidget />
+            <button type="button" className="btn btn-outline-secondary">
+            <CartWidget /></button>
         </ul>
     </div>
 

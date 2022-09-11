@@ -1,12 +1,13 @@
 import React from "react";
-import carrito from "../assets/img/carrito.png";
+
 
 const CartWidget = ()=> {
     return (
-        <div>
-            <a href="/"> <li><img src={carrito}  alt="carrito"/></li> </a>
+        <div style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+            <span className="material-icons">shopping_cart</span>
+            <span>0</span>
         </div>
-    )
-}
+    );
+};
 
 export default CartWidget;

@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .fondo_oscuro {
@@ -12,11 +13,15 @@
   font-weight: bold;
 }
 
-img{
-    width: 50px;
-    
-}
-
 p {
   color: rgb(217, 227, 235);
+}
+
+.card {
+  margin: 20px 30px;
+  border-radius: 10px;
+}
+
+h3 {
+  color:aliceblue;
 }
